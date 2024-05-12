@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Execute build steps, such as compiling code or running tests
-                sh 'echo /var/lib/jenkins/workspace/devops_assignment/directory2/hello.sh' // Example Maven build command
+                sh 'cat /var/lib/jenkins/workspace/devops_assignment/directory2/hello.sh' // Example Maven build command
             }
         }
         // Add more stages as needed
